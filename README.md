@@ -10,6 +10,26 @@ no cost.
 > content is either original or generated, not copied from ETS/Khan Academy/any
 > test-prep vendor.
 
+## Why this exists
+
+Like any student wanting to go to grad school, the GRE was just one more
+requirement standing between me and the programs I wanted to apply to. So I
+went looking for how to actually prepare for it — and found surprisingly few
+free options, and none of them fleshed out. Khan Academy has a set of
+ETS-partnered videos that cover content review, and sites like Magoosh explain
+the test format well, but neither of those is a place to actually *practice*:
+there's no single free tool that adapts to what you personally get right or
+wrong and gives you more of what you need. The adaptive platforms that do
+exist are almost all paid.
+
+This project is my attempt to close that gap. It's a baseline, not a finished
+product — the question bank is intentionally small to start, and the
+difficulty model is simple. But it's a real, working start toward a free,
+open, genuinely adaptive way to study for the GRE, built so it can keep
+growing: more questions, better content, and a clearer picture over time of
+what "adaptive" should actually mean for someone studying on their own, with
+no budget for test prep and no interest in waiting for one to show up.
+
 ## How it works
 
 - **[`pipeline/`](pipeline)** — Python scripts that produce the question bank
